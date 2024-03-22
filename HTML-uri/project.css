@@ -1,0 +1,378 @@
+.Titlu {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+body{
+
+    background-color: rgb(240, 240, 172);
+}
+
+.Meniu{
+    margin-top: 1%;
+    font-size: 30%;
+    text-align: center;
+
+}
+.but{
+    font-size: 1vw;
+    border-radius: 20%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    cursor: pointer;
+
+}
+.Inapoi_meniu{
+    display: flex;
+    justify-content: right;
+    
+    
+}
+.Inapoi{
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    
+}
+.Inapoi:hover{
+    background-color: green;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+#poza-schimbare{
+    width: 40%;
+    height: 20%;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.balanta{
+    display: flex;
+    justify-content: right;
+}
+.balantaB{
+ margin-right: 3%; 
+ background-color: #77777700;  
+ border-radius: 100%;
+ cursor: pointer;
+ color: rgb(225, 40, 104);
+}
+
+.Info_Site > p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(0, 7, 28);
+}
+html{
+    font-size: 17px;
+}
+body{
+    padding: 1.5rem;
+    margin: 0;
+}
+.Titlu{
+    font-family: 'Open Sans';
+    font-size: 200%;
+    font-weight: 900;
+    border: 2px solid black;
+    margin: 0;
+    height: 9rem;
+    background: linear-gradient(60deg, red, yellow, red, yellow, red);
+    margin: 0;
+    padding: 10px;
+
+}
+.Nume{
+    font-style: italic;
+    color: turquoise;
+    text-align: center;
+    font-size: 50%;
+    padding-bottom: 20%;
+}
+
+.Imagine{
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px double red;
+    opacity: 0.7;
+    cursor:pointer;
+
+
+}
+
+.Imagine:hover{
+    opacity: 1;
+}
+
+.but{
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color: green;
+}
+
+.Info_Creator{
+ background-color: #77777700;  
+ cursor: pointer;
+ color: black;
+ border: 1px solid black;
+ left: 0;
+ display: inline;
+ background-color: wheat;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.Despre_mine{
+  display: none;
+  position: absolute;
+  background-color: #1bb4a5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .Despre_mine{
+    display: block;
+}
+#Info_Pag_Produse > p{
+    font-size: 19px;
+    color: #1b41b4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.Titlu2{
+    height: 5rem;
+    background-color: bisque;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+}
+
+.Carucior{
+    font-size: 1vw;
+    border-radius: 20%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    cursor: pointer;
+    float: right;
+}
+.Carucior:hover{
+    background-color: #1bb4a5;
+}
+
+#poza-schimbare{
+    display: inline-block;
+    transition: 2s ;
+    width: 15rem;
+    height: 15rem;
+}
+#poza-schimbare:hover{
+    width: 30rem;
+    height: 30rem;
+    border: 5px double red;
+}
+
+.Joystick{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    float: right;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #Joystick:nth-child(1) {
+    animation: fadeIn 1s ease-in-out 0.5s infinite;
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    body{
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Imagine{
+        display: none;
+    }
+    .Titlu{
+        text-align: left;
+    }
+    .Meniu{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Titlu2{
+        display: none;
+    }
+    #Imagine_Produse{
+        size: 100px;
+        display: inline;
+        border: 1px aqua solid;
+    }
+
+  }
+
+/* Add your existing CSS code here */
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .gallery a {
+    margin-bottom: 20px;
+  }
+  
+  .gallery img {
+    width: 600px;
+    height: 400px;
+  }
+  
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .desc2 {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .desc3 {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .dropdown2 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.dropdown-btn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1bb4a5;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.dropdown-content .dropdown-item {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.dropdown2:hover .dropdown-content {
+    display: block;
+}
+
+.Body_Prod::before {
+    content: "Bun venit pe pagina cu produse!";
+    font-weight: bold;
+    background-color: yellow;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+  }
+
+  .final::after {
+    content: "Speram ca ti-au placut produsele noastre!";
+    font-weight: bold;
+    background-color: yellow;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+  }
+
+
+  #feedbackButton {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+
+
+.Produse_inapoi{
+    float: right;
+    
+}
+
+.Produse_inapoi:hover{
+    background-color: yellowgreen;
+}
+
+
+.smiley {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    width: 50px;
+  }
+  
+  .sad {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    width: 50px;
+  }
+
+
+  
